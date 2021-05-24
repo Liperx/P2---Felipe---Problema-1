@@ -15,13 +15,18 @@ string troca(string palavra, char c1, char c2)
 }
 
 int main()
-{   char palavra[50];
+{ 
+  char palavra[50];
+ 
   cout<< "digite a palavra"<<endl;
   cin>>palavra;
+ 
   cout<< "digite o caracter a ser trocado: "<<endl;
   cin>>c1;
+  
   cout<< "digite o caracter da troca: "<<endl;
   cin>>c2;
+ 
   cout << troca(palavra, c1, c2);
   
 }
